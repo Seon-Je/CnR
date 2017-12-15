@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>skku_coverage</name>
+  <version>0.0.2</version>
+  <description>The skku_coverage package</description>
+  <maintainer email="sj.yang@skku.edu">Yang SeonJe</maintainer>
+  <license>TODO</license>
+  <author email="sj.yang@skku.edu">Yang SeonJe</author>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <export></export>
+</package>

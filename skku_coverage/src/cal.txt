@@ -1,0 +1,107 @@
+//typedef coordinate
+//typedef robot
+/*
+int MAX_LTVs = 10;
+int MAX_Robot = 3;
+
+double L[MAX_LTVs][MAX_LTVs] = {0};
+int S[MAX_LTVs][MAX_LTVs] = {0};
+double L_min = 1000;
+double t_o = 0;
+
+double Cal_Distance(double coordinate_1, double coordinate_2) // 좌표형태의 구조체 필요
+{
+  return sqrt(pow((coordinate_1.x-coordinate_2.x),2) + pow((coordinate_1.y-coordinate_2.y),2);
+}
+
+
+
+int Cal_L_min(LTVs[],state) // LTVs
+{
+  double L_min; // 매우 큰 초기값 설정 필요
+  for(int j=0; j<MAX_LTVs; j++)
+  {
+    for(int k=0; k<MAX_LTVs; k++)
+    {
+      if(j!=k)
+      {
+        L[j][k] = Cal_Distance(LTVs[j],LTVs[k]);
+        if(L[j][k] < L_min)
+        {
+          L_min = L[j][k];
+        }
+        else
+        {
+          L_min=L_min;
+        }
+    }
+  }
+  return 1;
+}
+
+int Cal_S(L[][], double L_min, int state)
+{
+  int b=1;
+
+  for(int j=0; j<MAX_LTVs; j++)
+  {
+    for(int k=0; k<MAX_LTVs; k++)
+    {
+      if(j!=k)
+      {
+        if(L[j][k]%L_min==0)
+        {
+          S[j][k] = int(L[j][k]/L_min);
+        }
+        else
+        {
+          S[j][k] = int(L[j][k]/L_min)+b;
+        }
+      }
+    }
+  }
+  return 1;
+}
+
+int Cal_t_L_min(robot, L_min, L_i_max,state)
+{
+  for(int i=0; i<MAX_Robot; i++)
+  {
+    L_max[i]=robot.v_max * (2*robot.v_max/robot.a_max);
+    if (L_min <= L_i_max[i])
+    {
+      t_L_min[i]=2*sqrt(L_min/robot.a_max);
+    }
+    else
+    {
+      t_L_min[i]=L_min/robot.v_max + L_max[i]/robot.v_max;
+    }
+  }
+  return 1;
+}
+
+int Sel_t_o(t_L_min[i],state)
+{
+  for(int i=0; i<MAX_Robot; i++)
+    {
+    if(t_L_min[i] >= t_o)
+    {
+      t_o = t_L_min[i];
+    }
+    else
+    {
+      t_o=t_o;
+    }
+  }
+  return 1;
+}
+
+int Cal_eta(t_o, t_L_min[i],state)
+{
+  for(int i=0; i<MAX_Robot; i++)
+  {
+    eta[i]=int(t_o/t_L_min[i]);
+  }
+  return 1;
+}
+*/
