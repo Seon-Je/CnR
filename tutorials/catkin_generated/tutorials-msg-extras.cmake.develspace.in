@@ -1,0 +1,2 @@
+set(tutorials_MESSAGE_FILES "/home/redone/catkin_ws/src/skku/CnR/tutorials/msg/Num.msg")
+set(tutorials_SERVICE_FILES "")

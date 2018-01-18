@@ -1,0 +1,2 @@
+set(coverage_MESSAGE_FILES "/home/redone/catkin_ws/src/skku/CnR/coverage/msg/task_info.msg;/home/redone/catkin_ws/src/skku/CnR/coverage/msg/coverage_info.msg")
+set(coverage_SERVICE_FILES "")
