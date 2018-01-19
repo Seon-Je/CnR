@@ -4,4 +4,3 @@ uint8 robot_num
 uint8 task_command
 float64[] lat
 float64[] lon
-
