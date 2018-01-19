@@ -1,0 +1,21 @@
+<package format="2">
+	<name>test_topic</name>
+	<version>0.0.0</version>
+	<description>The ros_tutorials_topic package</description>
+	<maintainer email="sj.yang@skku.edu">SeonJe Yang</maintainer>
+	<license>Apache License 2.0</license>
+	<author email="sj.yang@skku.edu">SeonJe Yang</author>
+	<!-- <url type="bugtracker">http://wiki.ros.org/ros_tutorials_topic</url> -->
+	<!-- <url type="repository">http://wiki.ros.org/ros_tutorials_topic</url> -->
+	<!-- <url type="website">http://wiki.ros.org/ros_tutorials_topic</url> -->
+	<buildtool_depend>catkin</buildtool_depend>
+	<build_depend>roscpp</build_depend>
+	<build_depend>std_msgs</build_depend>
+	<build_depend>message_generation</build_depend>
+	<build_export_depend>roscpp</build_export_depend>
+	<build_export_depend>std_msgs</build_export_depend>
+	<exec_depend>roscpp</exec_depend>
+	<exec_depend>std_msgs</exec_depend>
+
+	<export> </export>
+</package>
